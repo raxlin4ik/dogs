@@ -1,0 +1,44 @@
+.parsunu{
+    color: #ff5000;
+}
+div {
+    display: flex;
+    }
+body{
+    background-color: #75AA5D;
+}
+h1{
+    text-align: center;
+}
+img{
+    width: 35%;
+}
+.menu a{
+    text-align: center;
+    margin: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #ff5000;
+    font-weight: 800;
+    border: 1px black solid;
+    display: inline-block;
+    width: 150px;
+    border-radius: 45px;
+   transition: 1s; 
+}
+.menu a:hover{
+    box-shadow: 3px 5px 3px #ff5000;
+    color: white;
+}
+.menu{
+    padding: 40px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.container {
+    width: 1000px;
+    /* Выставляет блок по центру */
+    margin: 0 auto;
+}
